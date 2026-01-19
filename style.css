@@ -1181,7 +1181,7 @@ address {
 }
 
 .g-4 {
-  gap: var(--space-lg);
+
 }
 
 .c-portfolio-card {
@@ -2545,5 +2545,11 @@ input[type="checkbox"] {
 
   h1, h2, h3, h4, h5, h6 {
     page-break-after: avoid;
+  }
+}
+
+@media (max-width: 767px) {
+  .g-4 {
+    gap: var(--space-lg);
   }
 }
